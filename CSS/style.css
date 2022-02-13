@@ -49,7 +49,7 @@ img{
 }
 
 .icono{
-    width: 150px;
+    width: 100px;
 }
 .icono:hover{
     filter: invert();
@@ -62,14 +62,20 @@ img{
 .self{
     width: 300px;
 }
-
 .marco{
-    border: rgb(152, 154, 255) solid 10px;
+    border: white 8px solid;
+    box-shadow: black 10px 10px 30px 10px;
+}
+.marco-oscuro{
+    border: rgb(0, 0, 0) solid 8px;
+}
+.marco-claro{
+    border: rgb(255, 255, 255) solid 8px;
 }
 .zoom{
     transition: transform .2s;
 }
-.zoom:hover{
+.zoom:selection{
     transform: scale(1.1); 
 }
 
@@ -101,4 +107,8 @@ img{
 
 .redes{
     padding: 10px;
+}
+
+.gris{
+    color: grey;
 }
