@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+}
+.first-title{
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+.titles{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.azul{
+    background-color: #3a63d7;
+}
+.azul-oscuro{
+    background-color: #122253;
+}
+.azul-claro{
+    background-color: #1179ce;
+}
+
+.blanco{
+    background-color: white;
+}
+
+.amarillo{
+    background-color: #ffd785;
+}
+
+.negro{
+    background-color: black;
+}
+.texto-blanco{
+    color: white;
+}
+
+.black-border{
+    border: black solid 2px;
+}
+
+.side-border{
+    border-left: black solid 2px;
+    border-right: black solid 2px;
+}
+
+.icono{
+    width: 150px;
+}
+.icono:hover{
+    filter: invert();
+}
+
+.fondo{
+    background-color: rgb(11, 22, 51);
+}
+
+.self{
+    width: 300px;
+}
+
+.marco{
+    border: rgb(152, 154, 255) solid 10px;
+}
+.zoom{
+    transition: transform .2s;
+}
+.zoom:hover{
+    transform: scale(1.1); 
+}
+
+.ilus-sep{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.correo{
+    text-decoration: solid black underline;
+}
+
+.parrafo{
+    font-size: 18px;
+}
+
+.espacio-texto{
+    padding-top: 30px;
+    padding-left: 60px;
+}
+
+.conocimientos{
+    padding: 50px;
+}
+
+.kaizo{
+    width: 80px;
+}
+
+.redes{
+    padding: 10px;
+}
